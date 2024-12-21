@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.Collections;
 
 public class Arraylist {
     public static void main(String args[]) {
@@ -23,6 +25,12 @@ public class Arraylist {
         for(int element : list) {
             System.out.print(element+" ");
         }
+
+        System.out.println();
+        System.out.println("The size of the arraylist is: ");
+        System.out.println(list.size());
+
+        Collections.sort(list);
 
         
     }
