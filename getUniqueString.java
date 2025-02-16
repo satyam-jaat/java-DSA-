@@ -17,3 +17,10 @@ class getUniqueString {
         System.out.println(unique);
     }
 }
+
+
+// How to convert char to String?
+// Correct ways:
+// String.valueOf(current_char) ✔
+// Character.toString(current_char) ✔
+// "" + current_char ✔ (String concatenation)
