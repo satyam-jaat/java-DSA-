@@ -1,2 +1,4 @@
-This repository is not completed yet.
-It will be completed with all the codes of all the DSA topics upto JUNE-2025.
+## 🚀 Coding & Problem-Solving  
+- 🏆 Solved **100+ DSA problems** on [LeetCode](https://leetcode.com/u/satyam_tomar/)
+- 💡 Passionate about **Web Development & Machine Learning**  
+- 🔗 Explore my **projects & contributions** 
