@@ -1,0 +1,52 @@
+// import java.util.ArrayList;
+// import java.util.List;
+
+// public class ArrayPermutation{
+//     public static int[] subOne(int[] array, int i) {
+//         int start_index = i+1;
+//         int end_index = array.length-1;
+//         int length = end_index - start_index;
+
+//         int subarray[] = new int[length];
+//         System.arraycopy(array, start_index, subarray, 0, length);
+
+//         return subarray;
+//     }
+//     public static int[] sub(int[] array, int i) {
+//         int start_index = 0;
+//         int end_index = i;
+//         int length = end_index - start_index;
+
+//         int subarray[] = new int[length];
+//         System.arraycopy(array, start_index, subarray, 0, length);
+
+//         return subarray;
+//     }
+
+//     public static void printper(int[] n, List<List<Integer>> final_list, List<Integer> permutation ) {
+//         if(n.length == 0) {
+//             final_list.add(new ArrayList<>(permutation));
+//             return;
+//         }
+//         for(int i=0; i<n.length; i++) {
+//             int currNum = n[i];
+//             int[] newNum = sub(n,i) + subOne(n,i);
+//             permutation.add(currNum);
+//             printper(newNum, final_list, permutation);
+//             permutation.remove(permutation.size() - 1);  // Remove the last added character to backtrack
+
+//         }
+//     }
+
+//     public static void main(String args[]) {
+//         int num[] = {123};
+//         List<List<Integer>> final_list = new ArrayList<>();
+//         List<Integer> permutation = new ArrayList<>();
+//         printper(num, final_list, permutation);
+
+//         for(List<Integer> innerIntegers : final_list) {
+//             System.out.println(innerIntegers);
+//         }
+//     }
+// }
+
